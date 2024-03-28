@@ -20,7 +20,7 @@ public class Noeud<E>{
         return voisins;
     }
 
-    public void ajoutervoisin(Noeud<E> voisin){
+    public void ajouterVoisin(Noeud<E> voisin){
         voisins.add(voisin);
     }
 }
